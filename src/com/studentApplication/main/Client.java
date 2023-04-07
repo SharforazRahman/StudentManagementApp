@@ -23,11 +23,11 @@ public class Client {
                     5.Update Student
                     6.Exist""");
 
-            System.out.print("Enter Choice :");
+            System.out.print("Enter Choice:");
             int ch = sc.nextInt();
 
             switch (ch) {
-                case 1:
+                case 1 -> {
                     System.out.println("Add Student");
                     System.out.println("Enter Student Name");
                     String name = sc.next();
@@ -41,29 +41,48 @@ public class Client {
                     boolean ans = dao.insertStudent(st);
                     if (ans) System.out.println("Recorded inserted Successfully!!");
                     else System.out.println("Something went wrong, Please Try again");
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     System.out.println("Show all Students");
                     dao.showAllStudent();
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     System.out.println("Get students based on RollNumber");
                     System.out.println("Enter Roll_Number");
                     int roll = sc.nextInt();
                     boolean flag = dao.showStudentById(roll);
-                    if(!flag) System.out.println("Student with this id is not available in our System, SORRY!!!");
-                    break;
-                case 4:
+                    if (!flag) System.out.println("Student with this id is not available in our System, SORRY!!!");
+                }
+                case 4 -> {
                     System.out.println("Delete Student");
-                    break;
-                case 5:
+                    System.out.println("Enter Roll Number to Delete");
+                    int rollnum = sc.nextInt();
+                    boolean flagTwo = dao.delete(rollnum);
+                    if (flagTwo) System.out.println("Record Deleted Successfully!");
+                    else System.out.println("Something went wrong, sorry.... TRY AGAIN!!");
+                }
+                case 5 -> {
                     System.out.println("Update the student");
-                    break;
-                case 6:
+                    System.out.println("\n1.Update name \n2.Update clgName");
+                    System.out.println("Enter your choice");
+                    int choice = sc.nextInt();
+                    if (choice == 1) {
+                        System.out.println("Enter roll Number");
+                        int rnum = sc.nextInt();
+                        System.out.println("Enter new name");
+                        String sname = sc.next();
+                        Student std = new Student();
+                        std.setName(sname);
+                        boolean flagThree = dao.update(rnum, sname, choice, std);
+                        if (flagThree) System.out.println("Name Updated Successfully");
+                        else System.out.println("Something went wrong!!");
+                    }
+                }
+                case 6 -> {
                     System.out.println("Thank you for using Student Management Application");
                     System.exit(0);
-                default:
-                    System.out.println("Please Enter Valid Number!!, Thank you");
+                }
+                default -> System.out.println("Please Enter Valid Number!!, Thank you");
             }
         }
     }

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3e2fa4-74e3-473b-8b0e-ebb9bf457e50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsManagementApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/studentApplication/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/studentApplication/dao/StudentDaoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/studentApplication/db/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/studentApplication/main/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/studentApplication/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/studentApplication/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/studentApplication/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/studentApplication/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/studentApplication/main/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/studentApplication/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/studentApplication/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/User/Downloads/JSP AND SARVLET/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar",
+    "last_opened_file_path": "E:/Github/StudentManagementApp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

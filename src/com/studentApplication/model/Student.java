@@ -7,7 +7,7 @@ public class Student {
     private String city;
     private double percentage;
 
-    Student(){
+    public Student(){
 
     }
     public Student(String name, String clgName, String city, double percentage) {
