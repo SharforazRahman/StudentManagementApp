@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a3e2fa4-74e3-473b-8b0e-ebb9bf457e50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/studentApplication/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/studentApplication/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/studentApplication/main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/studentApplication/main/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/studentApplication/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/studentApplication/model/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a3e2fa4-74e3-473b-8b0e-ebb9bf457e50" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +35,8 @@
     "last_opened_file_path": "E:/Github/StudentManagementApp",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
